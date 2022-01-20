@@ -1,6 +1,9 @@
 {
   "name": "project-a",
   "version": "1.0.0",
+  "scripts": {
+    "run": "npx tsc && node ../../dist/project-a/index.js"
+  },
   "dependencies": {
   }
 }
